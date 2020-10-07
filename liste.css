@@ -1,0 +1,128 @@
+.hautdepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:white;
+    width:100% ;
+    height: 80%;
+    border-bottom: solid 2px orange;
+    font-family: cursive;
+}
+
+.basdepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:white;
+    width:100% ;
+    height: 80%;
+    border-bottom: solid 2px orange;
+    font-family: cursive;
+    
+}
+
+
+
+body{padding: none;
+margin: 0;}
+
+
+
+/* 
+#principale{ display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+.contenugauche{ display: flex;
+    background-color:blue skyblue;
+    width: 20%;
+
+}
+.contenudroit{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: yellow;
+    width: 80%;
+
+
+
+}
+.elementcontenu1{display: flex;
+    background-color: red;
+    border-radius: 50px;
+    width: 90%;
+    height: 40%;
+
+}
+.elementcontenu2{display: flex;
+    background-color:pink;
+    border-radius: 50px;
+    width: 90%;
+    height: 40%;
+
+} */
+
+.premiereclasse table{
+    
+    
+    background-color:whitesmoke;
+    font-family: cursive;
+}
+
+.premiereclasse table tr td{
+    border-bottom: solid 2px orange;
+    font-family: cursive;
+}
+
+.premiereclasse table tr td:nth-child(even){
+    background-color:whitesmoke;
+    font-family: cursive;
+    width: 40vw;
+    
+}
+.premiereclasse img{
+    width: 8vw;
+
+}
+
+.premiereclasse table tr td:nth-child(odd){
+
+    width: 50vw;
+}
+
+.premiereclasse{
+    display: flex;
+    justify-content: center;
+}
+
+.cases{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: cursive;
+}
+
+.bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:white;
+    width:100% ;
+    height: 80%;
+    border-bottom: solid 2px orange;
+    font-family: cursive;
+
+}
+.main2{
+    width: 80%;
+    margin: auto;
+}
+
+.button:hover{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+}
+
